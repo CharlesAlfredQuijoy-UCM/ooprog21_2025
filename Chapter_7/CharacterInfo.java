@@ -1,13 +1,11 @@
-//import java.util.Scanner;
-
 public class CharacterInfo{
    public static void main (String args[]){
       char charr;
       String CASE = "";
-      //Scanner scan = new Scanner(System.in);
+
       charr = 'C';
       System.out.println("The character is "+charr);
-      //charr = scan.next().charAt(0);
+      
       
       if(Character.isLowerCase(charr)==true){
          System.out.println(charr+" is lowercase");
@@ -35,4 +33,5 @@ public class CharacterInfo{
    }
 
 }
+
 
