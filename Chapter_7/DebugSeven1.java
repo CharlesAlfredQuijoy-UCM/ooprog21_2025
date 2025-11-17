@@ -17,6 +17,7 @@ compareNames(name1, name2);
 compareNames(name1, name3);
 compareNames(name2, name3);
 }
+  
 public static void compareNames(String n1, String n2)
 {
 System.out.print(n1 + " and " + n2);
@@ -24,5 +25,6 @@ if(n1.equals(n2))
 System.out.println(" are the same");
 else
 System.out.println(" are different");
+ }
 }
-}
+
